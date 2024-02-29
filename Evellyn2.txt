@@ -1,0 +1,25 @@
+color help
+color e0
+cls
+cd Desktop
+md Atividade01
+cd Atividade01
+copy con Nota01.txt
+Este e o arquivo com a Nota 01
+copy con Nota02.txt
+Este e o arquivo com a Nota 02
+type Nota02.txt
+fc Nota01.txt Nota02.txt
+doskey/history >> Evellyn1.txt
+cls
+cd..
+md Backup
+cd Backup
+copy Atividade01\Nota01.txt
+copy C:\Users\Aluno\Desktop\Atividade01\Nota01.txt
+copy C:\Users\Aluno\Desktop\Atividade01\Nota02.txt
+cd..
+cd Atividade01
+del Nota01.txt
+del Nota02.txt
+doskey/history >> Evellyn2.txt
