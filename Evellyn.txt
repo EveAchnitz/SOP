@@ -48,3 +48,53 @@ cd..
 dir
 doskey >> Evellyn.txt
 doskey/h >> Evellyn.txt
+dir
+cd Atividade01
+echo>>Nota01.txt
+cd..
+cls
+cd Atividade01
+del Nota01.txt
+copy con Nota01.txt
+9
+cd..
+copy Atividade01\Nota01.txt Backup
+cd Backup
+dir
+del Backup
+dir
+doskey/h
+cls
+doskey/h
+doskey/h >> Atividade03.txt
+type Atividade03.txt
+cls
+cd..
+ren Atividade01 Trabalhos
+dir
+md Documentos
+cd Documentos
+md Projetos
+md Pessoais
+dir
+move "C:\Users\Aluno\Desktop\Trabalhos"
+dir
+move C:\Users\Aluno\Desktop\Backup
+dir
+ren Pessoais Lazer
+dir
+cd Lazer 
+copy con Viagem.txt
+Irlanda
+Portugal
+Suica
+Vaticano
+Chile
+cd..
+dir
+doskey >> Evellyn.txt
+doskey/h >> Evellyn.txt
+type Evellyn.txt
+doskey/history
+tree/F
+doskey/history >> Evellyn.txt
